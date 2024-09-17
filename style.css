@@ -80,6 +80,10 @@ li:before {
   display: flex;
 }
 
+.color-0 {
+  color: gray;
+}
+
 .color-1,
 .color-1 a {
   color: #0000ff;
@@ -108,5 +112,5 @@ li:before {
 }
 
 .color-none {
-  opacity: 0.5;
+  opacity: 0.3;
 }
