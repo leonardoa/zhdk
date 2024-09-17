@@ -80,8 +80,12 @@ li:before {
   display: flex;
 }
 
-.color-0 {
+.color-0, .color-0 a {
   color: gray;
+}
+
+.color-0 a:hover {
+  color: black;
 }
 
 .color-1,
