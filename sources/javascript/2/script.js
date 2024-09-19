@@ -13,6 +13,10 @@ row.forEach((element) => {
   });
 });
 
+
+
+
+
 //images that follow the mouse
 let row2 = document.querySelectorAll(".flex-mouse-follow");
 //if mouse hover on the row show the image inside
