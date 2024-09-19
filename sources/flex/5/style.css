@@ -23,12 +23,12 @@
 }
 
 .flex-item-2 {
-  height: 200px;
+  height: 500px;
 }
 
 
 /** responsive **/
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .flex-item {
     width: 100%; 
   }

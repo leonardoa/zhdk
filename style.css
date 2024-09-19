@@ -115,6 +115,18 @@ li:before {
   color: black;
 }
 
+
+.color-4,
+.color-4 a {
+  color: #01D601;
+}
+
+.color-4 a:hover {
+  color: black;
+}
+
+
 .color-none {
   opacity: 0.3;
 }
+

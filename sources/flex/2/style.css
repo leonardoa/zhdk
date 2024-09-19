@@ -11,10 +11,12 @@
 
 .flex-container-start {
   align-items: start;
+  justify-content: center;
 }
 
 .flex-container-center {
   align-items: center;
+  justify-content: end;
 }
 
 .flex-container-end {
