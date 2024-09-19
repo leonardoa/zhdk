@@ -4,9 +4,15 @@ Grid
 ***************
 */
 
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 :root {
   --columns: 12;
-  --gap: 5px; // You can adjust the gap size here
+  --gap: 10px; // You can adjust the gap size here
 }
 
 * {
@@ -21,7 +27,7 @@ Grid
   gap: var(--gap);
   background-color: #fff5f3;
   width: 100%;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .col {
@@ -30,7 +36,8 @@ Grid
   border: 1px solid #f5411d;
   color: #f5411d;
   border-radius: 5px;
-  padding: 10px;
+  /* padding: 10px; */
+  background: pink;
 }
 
 /* Correctly calculated column widths considering the gap */
@@ -141,3 +148,12 @@ Grid
 End Grid
 ***************
 */
+
+
+.item-cat {
+  height: 100px;
+}
+
+.special-col {
+  margin-top: 100px;
+}

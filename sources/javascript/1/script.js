@@ -23,6 +23,10 @@ var swiper = new Swiper(".mySwiper2", {
     el: ".swiper-pagination2",
     clickable: true,
   },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
 });
 
 var swiper = new Swiper(".mySwiper3", {

@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6, p, em, strong {
 }
 
 .spacing-5 {
-  letter-spacing: 5px;
+  letter-spacing: 10px;
 }
 
 .word-spacing-10 {
@@ -44,12 +44,7 @@ h1, h2, h3, h4, h5, h6, p, em, strong {
 }
 
 .font-small {
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.font-small {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 20px;
 }
 
@@ -58,8 +53,8 @@ h1, h2, h3, h4, h5, h6, p, em, strong {
 }
 
 .columns-2 {
-  columns: 2;
-  column-gap: 10px;
+  columns: 3;
+  column-gap: 100px;
 }
 
 .columns-3 {
