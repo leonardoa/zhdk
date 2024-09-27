@@ -29,7 +29,7 @@ body {
   height: 200px;
   background-color: var(--color-primary);
   /* transform: translate(100px, 0px) scale(0.5) skewX(30deg);  */
-  transform: translateX(50px) scale(4) skewX(-10deg);
+  transform: translateX(50px) scale(1.1) skewX(-10deg);
 }
 
 

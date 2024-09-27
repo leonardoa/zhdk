@@ -132,6 +132,14 @@ li:before {
   color: black;
 }
 
+.color-5,
+.color-5 a {
+  color: #FF8B00;
+}
+
+.color-5 a:hover {
+  color: black;
+}
 
 .color-none {
   opacity: 0.3;
