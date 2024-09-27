@@ -1,0 +1,58 @@
+#container {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  background: red;
+  transition: all 10s ease-in-out 3s; 
+}
+
+.slideUp {
+  transform: translateY(-100%);
+}
+
+.reduce-image {
+  width: 400px;
+  transition: all 600ms ease-in-out;
+}
+
+.reduce-image2 {
+  width: 200px;
+  border-radius: 50%;
+  transition: all 600ms ease-in-out;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;  
+}
+
+.wider {
+  width: 800px;
+}
+
+
+
+.image1 {
+  position: fixed;
+  top: 400px;
+  left: 200px;
+  width: 400px;
+  transition: all 600ms ease-in-out;
+  z-index: 2;
+}
+
+
+.image2 {
+  top: 500px;
+  left: 300px;
+  width: 400px;
+  transition: all 600ms ease-in-out;
+  transform: scale(0.6);
+  z-index: 1;
+
+}
